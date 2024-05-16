@@ -20,6 +20,7 @@ body {
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   a {
     text-decoration: none;
@@ -48,6 +49,7 @@ body {
     background-color: #fff;
     border-radius: 15px;
     cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .login:hover {
     color: #fff;
@@ -60,7 +62,28 @@ body {
     background-color: #fff;
     border-radius: 15px;
     cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+.body .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.body .note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body {
+    padding: 13rem;
+}
 
 
 
