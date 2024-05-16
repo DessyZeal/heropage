@@ -1,17 +1,12 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0; 
 }
-img {
-    background-image: url(nature-3361174_1280.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
+body {
+    background-color: rgb(20, 19, 19);
     width: 100%;
     height: 99.4vh;
-    overflow-x:hidden;
-    overflow-y: hidden;
   }
   .stuff {
     display: flex;
@@ -22,17 +17,20 @@ img {
   }
   .nav {
     height: 35px;
-    /* background-color: blue; */
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
   }
   a {
     text-decoration: none;
-    color: black;
+    color: white;
+  }
+  a:hover {
+    border-bottom: 1px solid white;
+    padding-top: 7px;
   }
   .stuff .home {
-    padding-right: 10px;
+    padding-right: 13px;
   }
   .button .login {
     margin-right: 10px;
@@ -42,6 +40,7 @@ img {
     font-family: cursive;
     font-weight: 700;
     font-style: italic;
+    color: white;
   }
   .login {
     padding: 7px 12px;
@@ -49,6 +48,11 @@ img {
     background-color: #fff;
     border-radius: 15px;
     cursor: pointer;
+  }
+  .login:hover {
+    color: #fff;
+    background: rgb(20, 19, 19);
+    border: 1px solid white;
   }
   .signup {
     padding: 7px;
